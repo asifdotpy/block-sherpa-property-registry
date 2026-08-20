@@ -1,0 +1,14 @@
+{
+  "name": "Block Sherpa Assessment",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:20",
+  "postCreateCommand": "npm install && cd frontend && npm install",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "hardhat.hardhat-solidity",
+        "esbenp.prettier-vscode",
+        "dbaeumer.vscode-eslint"
+      ]
+    }
+  }
+}
